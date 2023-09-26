@@ -13,7 +13,6 @@ let formData = {
     email: '',
     message: '',
 };
-
 function onFormSubmit(evt) {
     evt.preventDefault();
     formData.email = refs.emailInput.value;
